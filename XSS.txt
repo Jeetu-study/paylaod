@@ -1,0 +1,8 @@
+jeetu"jeetu
+jeetu<jeetu
+jeetu<>
+<span/style='x'onmouseout='alert(1)'>but</span>
+<b/class='x' onauxclick='alert`1`'>Email</b>
+<script/random>alert(1)</script>
+<y/oncut=alert(1)>xx
+<script+x>+alert(1)+</script+1=2
