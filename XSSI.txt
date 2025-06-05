@@ -1,0 +1,4 @@
+http://example.com/jeetu.js
+http://example.com/jeetu.css
+example.com/jeetu.css
+example.com/jeetu.js
